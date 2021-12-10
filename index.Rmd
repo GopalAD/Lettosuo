@@ -3,7 +3,7 @@ title: "Lettosuo_Gradu"
 author: "Gopal Adhikari"
 date: "28 11 2021"
 output:
-  html_document: 
+  html_document:
     theme: cosmo
     toc: yes
     toc_depth: 2
@@ -11,9 +11,40 @@ output:
     fig_width: 6
     fig_height: 4
     number_sections: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
 ---
 
-```{r child = "GAgradu.Rmd"}
+```{r child = "Introduction.Rmd"}
+
+```
+
+
+---
+
+```{r child = "Analysis.Rmd"}
+
+```
+
+
+---
+
+```{r child = "Results.Rmd"}
+
+```
+
+
+---
+
+```{r child = "Discussion.Rmd"}
+
+```
+
+
+---
+
+```{r child = "Conclusion.Rmd"}
 
 ```
 
